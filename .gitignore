@@ -1,0 +1,10 @@
+# Crear .gitignore limpio
+@'
+# Flutter web build internals (opcionales)
+*.map
+.last_build_id
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+'@ | Out-File -FilePath ".gitignore" -Encoding UTF8
