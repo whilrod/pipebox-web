@@ -522,6 +522,7 @@ class CompiledApp {
       },
       _1488: (x0,x1) => x0.exec(x1),
       _1489: (x0,x1) => x0.test(x1),
+      _1490: x0 => x0.pop(),
       _1492: o => o === undefined,
       _1494: o => typeof o === 'function' && o[jsWrappedDartFunctionSymbol] === true,
       _1496: o => {

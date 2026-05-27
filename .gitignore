@@ -3,6 +3,7 @@
 # Flutter web build internals (opcionales)
 *.map
 .last_build_id
+netlify.toml
 
 # Sistema operativo
 .DS_Store
